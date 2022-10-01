@@ -25,7 +25,7 @@ const Message = (props: MessageType) => {
           boxSize={10}
           rounded='full'
           border='1px'
-          borderColor='gray.200'
+          borderColor='border'
         />
       )}
       <VStack spacing={1} alignItems='flex-start'>
