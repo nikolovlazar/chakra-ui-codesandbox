@@ -18,7 +18,7 @@ const Index = () => {
     <VStack
       w='full'
       h='100vh'
-      p={10}
+      p={{ base: 4, sm: 10 }}
       spacing={6}
       alignItems='center'
       justifyContent='center'

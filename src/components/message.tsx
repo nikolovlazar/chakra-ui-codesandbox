@@ -22,7 +22,7 @@ const Message = (props: MessageType) => {
         <Image
           src={`/${avatar}`}
           alt={name}
-          boxSize={{ base: 8, sm: 10 }}
+          boxSize={10}
           rounded='full'
           border='1px'
           borderColor='gray.200'
